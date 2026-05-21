@@ -171,7 +171,7 @@ export default function Hero() {
               View Work
             </a>
             <a
-              href="/Pankaj_Madhikar_Mobile_App_Engineer.pdf"
+              href={import.meta.env.BASE_URL + 'Pankaj_Madhikar_Mobile_App_Engineer.pdf'}
               download="Pankaj_Madhikar_Mobile_App_Engineer.pdf"
               className="px-8 py-3.5 rounded-xl border border-purple-500/30 text-purple-400 hover:border-purple-500/50 hover:bg-purple-500/5 transition-all duration-300 flex items-center gap-2"
             >

@@ -45,7 +45,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/Pankaj_Madhikar_Mobile_App_Engineer.pdf"
+            href={import.meta.env.BASE_URL + 'Pankaj_Madhikar_Mobile_App_Engineer.pdf'}
             download="Pankaj_Madhikar_Mobile_App_Engineer.pdf"
             className="px-4 py-2 text-sm font-medium rounded-lg bg-primary/10 text-primary border border-primary/30 hover:bg-primary/20 transition-all"
           >
